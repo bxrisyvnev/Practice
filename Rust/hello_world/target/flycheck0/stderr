@@ -1,0 +1,50 @@
+   0.007679968s  INFO prepare_target{force=false package_id=hello_world v0.1.0 (/home/boris/Projects/Practice/Rust/hello_world) target="hello_world"}: cargo::core::compiler::fingerprint: fingerprint error for hello_world v0.1.0 (/home/boris/Projects/Practice/Rust/hello_world)/Check { test: false }/TargetInner { name: "hello_world", doc: true, ..: with_path("/home/boris/Projects/Practice/Rust/hello_world/src/main.rs", Edition2024) }
+   0.007703102s  INFO prepare_target{force=false package_id=hello_world v0.1.0 (/home/boris/Projects/Practice/Rust/hello_world) target="hello_world"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/boris/Projects/Practice/Rust/hello_world/target/debug/.fingerprint/hello_world-23f92e37b94da1c2/bin-hello_world`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: __libc_start_main
+  16: <unknown>
+   0.008178360s  INFO prepare_target{force=false package_id=hello_world v0.1.0 (/home/boris/Projects/Practice/Rust/hello_world) target="hello_world"}: cargo::core::compiler::fingerprint: fingerprint error for hello_world v0.1.0 (/home/boris/Projects/Practice/Rust/hello_world)/Check { test: true }/TargetInner { name: "hello_world", doc: true, ..: with_path("/home/boris/Projects/Practice/Rust/hello_world/src/main.rs", Edition2024) }
+   0.008184341s  INFO prepare_target{force=false package_id=hello_world v0.1.0 (/home/boris/Projects/Practice/Rust/hello_world) target="hello_world"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/boris/Projects/Practice/Rust/hello_world/target/debug/.fingerprint/hello_world-cb0781aca356a3cc/test-bin-hello_world`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: __libc_start_main
+  16: <unknown>
+    Checking hello_world v0.1.0 (/home/boris/Projects/Practice/Rust/hello_world)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.03s
