@@ -10,7 +10,17 @@ fn main() {
     let rng = rand::rng().random_range(1..=10);
     let mut guess = String::new();
 
+    println!("{rng}");
+
     io::stdin()
         .read_line(&mut guess)
         .expect("Pls type an actual number pls!");
+
+    let guess: i32 = guess.trim().parse().expect("Please type a number!");
+
+    if guess == rng {
+        println!("You are right!");
+    } else {
+        println!("You are wrong! Now die!");
+    }
 }
