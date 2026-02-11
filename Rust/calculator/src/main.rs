@@ -7,7 +7,7 @@ use operators::sub;
 use std::io;
 
 fn main() {
-    while true {
+    loop {
         let mut x = String::new();
 
         io::stdin()
